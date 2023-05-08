@@ -37,8 +37,9 @@ function Login(){
       <a href="#">Crie uma Conta</a>
     </div>
 
-    <div>
-    <a href="/sobre">Clique para ver nossos Produtos</a>&nbsp;&nbsp;&nbsp;
+    <div class="espaco">
+    <a href="/"  class="btn btn-secondary">Clique para voltar para nossa página Inicial</a>&nbsp;&nbsp;&nbsp;
+    <a href="/sobre"  class="btn btn-secondary">Clique para ver nossos Produtos</a>&nbsp;&nbsp;&nbsp;
     </div>
 
     </form>

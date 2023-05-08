@@ -1,7 +1,9 @@
 import Menu from "./menu"
+import "../App.css"
 
 function Sobre(){
     return(
+    <div className="fl1">
         <div>
            <h1>Produtos Floricultura - SUNSET</h1>
             <div class ="produtosFlores">
@@ -9,11 +11,9 @@ function Sobre(){
             <img src={'https://media.discordapp.net/attachments/960884773725831228/1104898303310712842/31882gg.webp'} alt="Workflow" />
             <h4><b>ARRANJO DE ORQUÍDEA BRANCA E ASPLÊNIO</b></h4>
             <p>R$150,00</p>
-        </div>
             </div>
-
+             
             <div>
-           
             <div>
             <div class="card">
             <img src={'https://media.discordapp.net/attachments/960884773725831228/1104900187857621022/25801gg.webp'} alt="Workflow" />
@@ -33,7 +33,8 @@ function Sobre(){
         </div>
             </div>
         </div>
-
+        </div>
+        
         <div>
            
             <div>
@@ -55,6 +56,15 @@ function Sobre(){
         </div>
             </div>
         </div>
+
+        
+      
+    </div>
+        <div class = "espaco">
+        <a href="/" class="btn btn-primary">Clique para voltar para nossa página Inicial</a>&nbsp;&nbsp;&nbsp;
+        <a href="/login" class="btn btn-primary">Clique para realizar um login</a>&nbsp;&nbsp;&nbsp;
+        </div>
+        
         </div>
 
         
